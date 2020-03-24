@@ -1,0 +1,49 @@
+.container {
+    position: fixed;
+    width: 800px;
+}
+
+#timer{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+#hiscore-link{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+li{
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+}
+
+#AnswerBox{
+    width: 60%;
+    position: fixed;
+    left: 250px;
+    top: 150px;
+}
+
+.hidden{
+    display: none;
+}

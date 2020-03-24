@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+   <div class="container">
+        <div  id="hiscore-link" style="float:left"> 
+            <a src="unknown">View High Scores</a>
+        </div>
+    
+        <div id="timer" ></div>
+    </div>
+    <br>
+    <br>
+    <h1 id="questionBox" style="text-align: center">Poppe's Coding Challenge Extraordinaire</h1>
+        
+    <div id="AnswerBox">
+
+        <p id="intro"> This coding quiz will test your knowledge of software development. Each correct answer will gain you points, while a wrong answer will take 10 seconds off of your remaining time to finish the quiz. Good Luck!</p>
+
+        <button id="startButton">Start Quiz</button>
+
+        <ul id="optionList" class="hidden" data-state="hidden">
+            <li><button id="button1">Button 1</button></li>
+            <li><button id="button2">Button 2</button></li>
+            <li><button id="button3">Button 3</button></li>
+            <li><button id="button4">Button 4</button></li>
+        </ul>
+        <h2 id="reporter"></h2>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
