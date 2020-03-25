@@ -30,9 +30,14 @@
             <li><button id="button3" class="AnsButton">Button 3</button></li>
             <li><button id="button4" class="AnsButton">Button 4</button></li>
         </ul>
-    <div>
-        <h2 id="hiscore" class="hidden" data-state="hidden">Hi Scores</h2>
-    </div>
+        <div>
+            <form method="POST" id="hiscoreForm">
+            <input type="text" id="hiscoreEntry" placeholder="Your Name" class="hidden" data-state="hidden" />
+            </form>
+            <ul id="hiscore" class="hidden" data-state="hidden">
+                <h2>Hi Scores</h2>
+            </ul>
+        </div>
     
         <h2 id="reporter"></h2>
         <button id="reset">Reset Quiz</button>
