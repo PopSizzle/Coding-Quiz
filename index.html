@@ -9,7 +9,7 @@
 <body>
    <div class="container">
         <div  id="hiscore-link" style="float:left"> 
-            <a src="unknown">View High Scores</a>
+            <p>View High Scores</p>
         </div>
     
         <div id="timer" ></div>
@@ -20,17 +20,22 @@
         
     <div id="AnswerBox">
 
-        <p id="intro"> This coding quiz will test your knowledge of software development. Each correct answer will gain you points, while a wrong answer will take 10 seconds off of your remaining time to finish the quiz. Good Luck!</p>
+        <p id="intro" data-state="visible"> This coding quiz will test your knowledge of software development. Each correct answer will gain you points, while a wrong answer will take 10 seconds off of your remaining time to finish the quiz. Good Luck!</p>
 
-        <button id="startButton">Start Quiz</button>
+        <button id="startButton" data-state="visible">Start Quiz</button>
 
         <ul id="optionList" class="hidden" data-state="hidden">
-            <li><button id="button1">Button 1</button></li>
-            <li><button id="button2">Button 2</button></li>
-            <li><button id="button3">Button 3</button></li>
-            <li><button id="button4">Button 4</button></li>
+            <li><button id="button1" class="AnsButton">Button 1</button></li>
+            <li><button id="button2" class="AnsButton">Button 2</button></li>
+            <li><button id="button3" class="AnsButton">Button 3</button></li>
+            <li><button id="button4" class="AnsButton">Button 4</button></li>
         </ul>
+    <div>
+        <h2 id="hiscore" class="hidden" data-state="hidden">Hi Scores</h2>
+    </div>
+    
         <h2 id="reporter"></h2>
+        <button id="reset">Reset Quiz</button>
     </div>
 
     <script src="javascript.js"></script>
